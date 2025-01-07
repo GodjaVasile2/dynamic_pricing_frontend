@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const fetchParkingData = async () => {
       try {
-        const response = await axios.get("http://localhost:3001/api/parking-prices");
+        const response = await axios.get("http://13.60.97.119:3001/api/parking-prices");
         setParkingSpots(response.data);
         setLoading(false);
       } catch (error) {
