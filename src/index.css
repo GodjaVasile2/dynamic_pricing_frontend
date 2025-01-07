@@ -1,0 +1,48 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.right {
+  flex: 1;
+}
+
+.map-container {
+  width: 100%;
+  height: 400px;
+}
+
+.json-container {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+  height: 400px;
+}
